@@ -1,0 +1,96 @@
+body{
+    background-image: url(music\ bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#p1{
+    border-style: inset;
+    background-color: aqua;
+    font-family: "consolas",sans-serif;
+    font-style: italic;
+    font-size: larger;
+    border-radius: 30px;
+    border-color: aliceblue;
+    padding: 10px;
+    border-style: dashed;
+    
+}
+#p2{
+    border-top-style: double;
+    border-style: groove;
+    color: bisque;
+    font-style: inherit;
+    text-decoration: wavy;
+    font-weight: 700;
+    border-radius: 30px;
+    border-color: goldenrod;
+    padding: 10px;
+    border-width: 5px;
+
+}
+#p3{
+    border-style: outset;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: "underline",dotted;
+    border-radius: 50px;
+    border-color: rgb(234, 37, 198);
+    padding: 10px;
+    border-bottom-width: 10px;
+    border-bottom-color: brown;
+}
+#p10{
+    background: linear-gradient(lightgreen,lightblue);
+    border: 50px;
+    width: 1000px;
+    height: 40px;
+    background: greenyellow;
+    padding:30px;
+    margin-left: 50px;/*specific direction*/
+    margin: 20px; /*all directions*/
+    border-radius: 10px;
+   
+}
+#d1{
+    background: linear-gradient(goldenrod,rgb(142, 175, 236)) ;
+}
+#I1{
+    float: left;
+}
+#I2{
+    position:static;
+    top: 0px;
+    right: 0px;
+}
+.tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .tabs li {
+    flex: 1;
+  }
+  
+  .tabs li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #ccc;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .tabs li a:hover {
+    background-color: #aaa;
+  }
+  

@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  </head>
+  <body background="C:\Users\User\Pictures\pics\Sent\21.jpg">
+       <div> <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="register.html">REGISTRATION</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="community.html">COMMUNITY ENGAGEMENT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="library.html">LIBRARY</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                    <li><a href="extra.html">MISCELLANEOUS</a></li>
+                </ul>
+            </nav>
+        </header></div>
+        <hr>
+<html lang="en">
+  
+  <div class="container">
+    <h1>Login</h1>
+     <form action="login.php" method="POST" enctype="multipart/form-data"></form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname"  placeholder="Mufasa"><br><br>
+        <label for="middlename">Middle Name:</label>
+        <input type="text" id="middlename" name="middlename" required><br><br>
+        <label for="surname">surname:</label>
+        <input type="text" id="surname" name="surname" required><br><br>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+<br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <div class="form-group">
+        <label for="B.Date">Birth Date:</label>
+        <input type="date" id="B.Date" name="B.Date">
+      </div>
+   <br><br>
+        <div class="form-group">
+          <label for="cv">CV (Upload as file):</label>
+          <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx">
+        </div><br>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div><br>
+  
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" maxlength="15" pattern="^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+){10,}$" required>
+          <small>Password must be alphanumeric and have at least 10 characters.</small>
+        </div><br><br>
+  
+        <div class="form-group">
+          <label for="facebook">Facebook:</label><br><br>
+          <input type="url" id="facebook" name="facebook">
+        </div><br>
+  
+        <div class="form-group">
+          <label for="instagram">Instagram:</label><br><br>
+          <input type="url" id="instagram" name="instagram">
+        </div><br>
+  
+        <div class="form-group">
+          <label for="twitter">Twitter:</label><br><br>
+          <input type="url" id="twitter" name="twitter">
+        </div><br>
+  
+        <div class="form-group">
+          <label for="mobile">Mobile Number:</label><br><br>
+          <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}">
+          <small>Enter a 10-digit mobile number.</small>
+        </div><br>
+  
+        <div class="form-group">
+          <button type="submit">Login</button>
+        </div><br>
+        <div><label>Title: </label>
+          <label>Mr.</label>
+          <input type="checkbox" name="Title">
+          <label>Mrs.</label>
+           <input type="radio" name="Title">
+          <label>PhD</label>
+           <input type="checkbox" name="Title">
+          <label>Prof</label>
+           <input type="checkbox" name="Title">
+          <label>Shubamiti</label>
+           <input type="radio" name="Title">
+        </div>
+        <div>
+          <label for="Gender" >Gender</label>
+          <select id="Gender" name="Gender">
+            <option></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Fala la Upinde">Fala la Upinde</option>
+          </select>
+        </div>
+      </form>
+  
+  </div>
+
+</body>
+</html>
